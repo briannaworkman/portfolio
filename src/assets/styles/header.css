@@ -1,0 +1,53 @@
+.header {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10rem;
+}
+.header-p {
+  color: #64ffda;
+  margin: 0;
+  font-size: 14px;
+}
+
+.header-h1 {
+  color: #ccd6f5;
+  font-size: 70px;
+  margin: 0;
+}
+
+.header-h2 {
+  color: #8892b0;
+  font-size: 70px;
+  margin: 0;
+}
+
+.button-container {
+  margin-top: 30px;
+}
+
+.button {
+  background-color: transparent;
+  border-color: #64ffda;
+  color: #64ffda;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 1rem 1.75rem;
+  margin-right: 20px;
+}
+
+.button:hover {
+  background-color: rgba(100, 255, 218, 0.1);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #64ffda;
+  text-decoration: none;
+}
