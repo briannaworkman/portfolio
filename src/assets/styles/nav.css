@@ -1,9 +1,8 @@
 .nav {
   display: flex;
   justify-content: flex-end;
-  padding: 2rem;
-  /* box-shadow: 1px 5px rgba(0, 0, 0, 0.1); */
-  background-color: #131451;
+  padding-top: 2rem;
+  background-color: #09192f;
   position: fixed;
   top: 0;
   width: 97%;
@@ -13,4 +12,5 @@
   margin: 20px;
   color: #f5f5f5;
   top: 0;
+  font-size: 14px;
 }
