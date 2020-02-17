@@ -5,10 +5,10 @@ function Nav() {
   return (
     <div className="nav">
       <div className="container">
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Articles</a>
-        <a href="#">Contact</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#aricles">Articles</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
   );

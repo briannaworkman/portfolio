@@ -8,6 +8,10 @@ img {
   width: 25px;
 }
 
+img:hover {
+  height: 30px;
+  width: 30px;
+}
 ul {
   list-style: none;
 }
