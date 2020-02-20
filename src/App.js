@@ -7,10 +7,10 @@ import About from "./components/About";
 function App() {
   return (
     <div className="app">
-      <SideLinks />
       <Nav />
       <Header />
       <About />
+      <SideLinks />
     </div>
   );
 }

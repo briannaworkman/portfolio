@@ -1,13 +1,17 @@
+.header-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .header {
-  height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
-  margin: 7rem 13rem;
+  margin: 10rem 5rem;
+  margin-bottom: 17rem;
 }
 .header-p {
-  color: #f64c72;
+  color: #fc4177;
   margin: 0;
   font-size: 16px;
 }
@@ -37,8 +41,8 @@
 
 .button {
   background-color: transparent;
-  border-color: #f64c72;
-  color: #f64c72;
+  border-color: #fc4177;
+  color: #fc4177;
   font-size: 14px;
   cursor: pointer;
   border-radius: 5px;
