@@ -22,7 +22,7 @@
   content: "";
   position: absolute;
   height: 5px;
-  border-bottom: 0.2px solid #ccd6f5;
+  border-bottom: 0.2px solid #fc4177;
   top: 0;
   width: 325px;
 }
@@ -43,6 +43,7 @@
 .tech-lists {
   display: flex;
   color: #ccd6f5;
+  margin-top: -1.5rem;
 }
 
 .about ul li::before {
