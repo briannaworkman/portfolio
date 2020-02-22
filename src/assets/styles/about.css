@@ -19,7 +19,7 @@
 }
 
 .about h2:after {
-  content: "";
+  content: '';
   position: absolute;
   height: 5px;
   border-bottom: 0.2px solid #fc4177;
@@ -47,7 +47,7 @@
 }
 
 .about ul li::before {
-  content: "\25B7";
+  content: '\25B7';
   color: #fc4177;
   display: inline-block;
   width: 2rem;
