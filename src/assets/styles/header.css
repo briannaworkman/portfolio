@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 15rem 5rem;
+  margin: 10rem 5rem;
 }
 .header-p {
   color: #fc4177;
