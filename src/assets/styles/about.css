@@ -1,13 +1,13 @@
-.about-container {
-  width: 80%;
+.main-about-container {
+  height: 100vh;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 10rem;
+  padding: 5rem;
 }
 
-.about {
-  width: 50%;
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 .about h2 {
@@ -26,11 +26,6 @@
   background-color: #fc4177;
   margin-left: 60%;
 }
-
-/* .about h2:after {
-  left: 100%;
-  margin-left: 15px;
-} */
 
 .about p {
   width: 85%;

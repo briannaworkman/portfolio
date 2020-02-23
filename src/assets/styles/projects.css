@@ -1,0 +1,32 @@
+.projects-container {
+  height: 100vh;
+  margin: 0 auto;
+  padding: 5rem;
+}
+
+.project h2 {
+  font-size: 32px;
+  color: #f5f5f5;
+  line-height: 0.1;
+  display: inline-block;
+}
+
+.project h2:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 280px;
+  background-color: #fc4177;
+  margin-left: 70%;
+}
+
+.key-pic {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+.key-pic img {
+  height: 346px;
+  width: 172px;
+}

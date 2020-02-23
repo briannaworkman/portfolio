@@ -1,14 +1,14 @@
 .header-container {
   height: 100vh;
-  width: 80%;
   margin: 0 auto;
+  padding-left: 5rem;
+  padding-top: 10rem;
 }
 
 .header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 10rem 5rem;
 }
 .header-p {
   color: #fc4177;

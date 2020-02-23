@@ -1,15 +1,19 @@
-import React from "react";
-import Header from "./components/Header";
-import SideLinks from "./components/SideLinks";
-import Nav from "./components/Nav";
-import About from "./components/About";
+import React from 'react';
+import Header from './components/Header';
+import SideLinks from './components/SideLinks';
+import Nav from './components/Nav';
+import About from './components/About';
+import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="app">
+    <div className='app'>
       <Nav />
-      <Header />
-      <About />
+      <div className='app-container'>
+        <Header />
+        <About />
+        <Projects />
+      </div>
       <SideLinks />
     </div>
   );
