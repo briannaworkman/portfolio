@@ -20,6 +20,23 @@
   margin-left: 70%;
 }
 
+.key-project {
+  display: flex;
+}
+
+.key-project h2 {
+  color: white;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.key-project p {
+  color: #ccd6f6;
+  margin-left: 1rem;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
 .key-pic {
   display: flex;
   justify-content: flex-start;
@@ -29,4 +46,13 @@
 .key-pic img {
   height: 346px;
   width: 172px;
+  margin-right: 1rem;
+}
+
+.key-project ul li::before {
+  content: '\25B7';
+  color: #fc4177;
+  display: inline-block;
+  width: 2rem;
+  margin-left: -2.5rem;
 }
