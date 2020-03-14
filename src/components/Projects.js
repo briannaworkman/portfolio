@@ -3,7 +3,6 @@ import keyLogin from '../assets/images/key-login.png';
 import '../assets/styles/projects.css';
 import keyFeed from '../assets/images/key-feed.png';
 import keyProfile from '../assets/images/key-profile.png';
-import keyConnections from '../assets/images/key-connections.png';
 
 export default function Projects() {
   return (

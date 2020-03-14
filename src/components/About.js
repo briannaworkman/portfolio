@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../assets/profile.jpg';
+import profile from '../assets/images/profile.png';
 import '../assets/styles/about.css';
 
 export default function About() {
@@ -9,10 +9,9 @@ export default function About() {
         <div className='about'>
           <h2>About Me</h2>
           <p>
-            Hello! I'm Brianna, a software enginner based in Nashville, TN who
-            enjoys building exceptional websites and apps that provide
-            intuitive, responsive, pixel-perfect user interfaces with efficient
-            and modern backends.
+            Hello! I'm Brianna, a software enginner who enjoys building
+            exceptional websites and apps that provide intuitive, responsive,
+            pixel-perfect user interfaces with efficient and modern backends.
           </p>
           <p>
             I am currently a student in Lambda School's Full Stack Web
@@ -24,12 +23,12 @@ export default function About() {
             <ul>
               <li>JavaScript(ES6+)</li>
               <li>React & React Native</li>
-              <li>Node.js</li>
+              <li>Node & Express</li>
             </ul>
             <ul>
               <li>HTML & CSS</li>
               <li>Redux</li>
-              <li>Express</li>
+              <li>Python & Django</li>
             </ul>
           </div>
         </div>
