@@ -1,0 +1,20 @@
+.unavailable {
+  display: flex;
+  align-items: center;
+}
+
+.unavailable-img img {
+  height: 400px;
+  width: 600px;
+  margin-right: 50px;
+}
+
+.unavailable-text h1 {
+  color: white;
+}
+
+.unavailable-text p {
+  margin-left: 0;
+  margin-bottom: 20px;
+  color: #ccd6f5;
+}

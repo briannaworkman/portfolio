@@ -15,8 +15,8 @@ export default function About() {
           </p>
           <p>
             I am currently a student in Lambda School's Full Stack Web
-            Development program where I work on a wide variety of interesting
-            and meaningful projects on a daily basis.
+            Development program where I work on a wide variety of fun and
+            interesting projects on a daily basis.
           </p>
           <p>Here are a few technologies I've been working with recently:</p>
           <div className='tech-lists'>
@@ -27,7 +27,7 @@ export default function About() {
             </ul>
             <ul>
               <li>HTML & CSS</li>
-              <li>Redux</li>
+              <li>Redux & Context</li>
               <li>Python & Django</li>
             </ul>
           </div>
