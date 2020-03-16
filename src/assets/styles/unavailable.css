@@ -1,3 +1,8 @@
+.unavailable-container {
+  display: flex;
+  justify-content: center;
+}
+
 .unavailable {
   display: flex;
   align-items: center;
