@@ -62,3 +62,16 @@ a:visited {
   color: #64ffda;
   text-decoration: none;
 }
+
+@media screen and (max-width: 635px) {
+  .header-container {
+    margin: 0 auto;
+    padding-left: 0rem;
+    padding-top: 10rem;
+    padding-bottom: 100px;
+  }
+
+  .summary {
+    width: 100%;
+  }
+}

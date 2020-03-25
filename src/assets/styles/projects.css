@@ -108,4 +108,47 @@
 .movie-pic img {
   height: 346px;
   width: 550px;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 1285px) {
+  .key-project {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .projects-container {
+    width: 100%;
+    padding-left: 5rem;
+  }
+
+  .key-pic img {
+    height: 300px;
+    width: 150px;
+    margin-right: 0.5rem;
+  }
+
+  .movie-pic img {
+    height: 300px;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .projects-container {
+    margin: 0 auto;
+    padding: 0rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .movie-pic img {
+    height: 200px;
+    width: 300px;
+  }
+
+  .no-show {
+    display: none;
+  }
 }

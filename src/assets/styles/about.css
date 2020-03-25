@@ -59,3 +59,29 @@
   height: 350px;
   width: 350px;
 }
+
+@media screen and (max-width: 800px) {
+  .main-about-container {
+    margin: 0 auto;
+    padding-left: 5rem;
+  }
+
+  .about-container {
+    flex-direction: column-reverse;
+  }
+
+  .profile-picture {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .main-about-container {
+    margin: 0 auto;
+    padding: 0rem;
+  }
+
+  .about p {
+    width: 100%;
+  }
+}

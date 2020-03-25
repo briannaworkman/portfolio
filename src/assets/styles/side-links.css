@@ -26,3 +26,9 @@ li {
   width: 1px;
   margin-left: 70px;
 }
+
+@media screen and (max-width: 635px) {
+  .side-links {
+    display: none;
+  }
+}

@@ -29,21 +29,23 @@ class Projects extends Component {
           <div className='key-pic'>
             <img src={keyLogin} />
             <img src={keyFeed} />
-            <img src={keyProfile} />
+            <img src={keyProfile} className='no-show' />
           </div>
           <div className='key-text'>
             <div className='project-header'>
               <h2>Key Conservation</h2>
-              <a
-                href='https://github.com/Lambda-School-Labs?q=key&type=&language='
-                target='_blank'
-              >
-                <img src={github} />
-              </a>
-              <Modal show={this.state.show}>
-                <Unavailable handleClose={this.hideModal} />
-              </Modal>
-              <img src={launch} alt='Go Live' onClick={this.showModal} />
+              <div className='icons'>
+                <a
+                  href='https://github.com/Lambda-School-Labs?q=key&type=&language='
+                  target='_blank'
+                >
+                  <img src={github} />
+                </a>
+                <Modal show={this.state.show}>
+                  <Unavailable handleClose={this.hideModal} />
+                </Modal>
+                <img src={launch} alt='Go Live' onClick={this.showModal} />
+              </div>
             </div>
             <p>
               Key Conservation is helping conservationists gain critical funding
@@ -62,15 +64,23 @@ class Projects extends Component {
           </div>
         </div>
         <div className='key-project'>
+          <div className='movie-pic'>
+            <img src={movieBox} />
+          </div>
           <div className='key-text'>
             <div className='project-header'>
               <h2>Movie Box</h2>
-              <a href='https://github.com/briworkman/movie-box' target='_blank'>
-                <img src={github} />
-              </a>
-              <a href='https://the-movie-box.netlify.com/' target='_blank'>
-                <img src={launch} />
-              </a>
+              <div className='icons'>
+                <a
+                  href='https://github.com/briworkman/movie-box'
+                  target='_blank'
+                >
+                  <img src={github} />
+                </a>
+                <a href='https://the-movie-box.netlify.com/' target='_blank'>
+                  <img src={launch} />
+                </a>
+              </div>
             </div>
             <p>
               Movie Box is an app that allows you to view your favorite movie
@@ -90,9 +100,6 @@ class Projects extends Component {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className='movie-pic'>
-            <img src={movieBox} />
           </div>
         </div>
       </div>
