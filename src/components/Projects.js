@@ -34,7 +34,7 @@ class Projects extends Component {
             <div className='project-header'>
               <h2>Key Conservation</h2>
               <a
-                href='https://github.com/orgs/Lambda-School-Labs/teams/labs-20-key-conservation/repositories'
+                href='https://github.com/Lambda-School-Labs?q=key&type=&language='
                 target='_blank'
               >
                 <img src={github} />
