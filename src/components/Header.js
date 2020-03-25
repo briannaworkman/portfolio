@@ -1,26 +1,27 @@
-import React from "react";
-import "../assets/styles/header.css";
+import React from 'react';
+import '../assets/styles/header.css';
 
 function Header() {
   return (
-    <div className="header-container">
-      <div className="header">
-        <p className="header-p">Hi, my name is</p>
-        <h1 className="header-h1">Brianna Workman.</h1>
-        <h2 className="header-h2">I am a Software Engineer.</h2>
-        <p className="summary">
+    <div className='header-container'>
+      <div className='header'>
+        <p className='header-p'>Hi, my name is</p>
+        <h1 className='header-h1'>Brianna Workman.</h1>
+        <h2 className='header-h2'>I am a Software Engineer.</h2>
+        <p className='summary'>
           I have a passion for building exceptional, high-quality websites and
           applicaitons for the web, iOS, and Android.
         </p>
-        <div className="button-container">
-          <a href="mailto:brianna.workman@hotmail.com">
-            <button className="button">Get In Touch</button>
+        <div className='button-container'>
+          <a href='mailto:brianna.workman@hotmail.com'>
+            <button className='button'>Get In Touch</button>
           </a>
           <a
-            href="https://resume.creddle.io/resume/ba5qjpkswa6"
-            target="_blank"
+            href='https://resume.creddle.io/resume/ba5qjpkswa6'
+            target='_blank'
+            rel='noopener noreferrer'
           >
-            <button className="button">Resume</button>
+            <button className='button'>Resume</button>
           </a>
         </div>
       </div>

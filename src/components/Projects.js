@@ -27,9 +27,13 @@ class Projects extends Component {
         </div>
         <div className='key-project'>
           <div className='key-pic'>
-            <img src={keyLogin} />
-            <img src={keyFeed} />
-            <img src={keyProfile} className='no-show' />
+            <img src={keyLogin} alt='Key Conservation Login Page' />
+            <img src={keyFeed} alt='Key Conservation Live Feed' />
+            <img
+              src={keyProfile}
+              className='no-show'
+              alt='A Key Conservation Profile Page'
+            />
           </div>
           <div className='key-text'>
             <div className='project-header'>
@@ -38,8 +42,9 @@ class Projects extends Component {
                 <a
                   href='https://github.com/Lambda-School-Labs?q=key&type=&language='
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
-                  <img src={github} />
+                  <img src={github} alt='Go to GitHub' />
                 </a>
                 <Modal show={this.state.show}>
                   <Unavailable handleClose={this.hideModal} />
@@ -65,7 +70,7 @@ class Projects extends Component {
         </div>
         <div className='key-project'>
           <div className='movie-pic'>
-            <img src={movieBox} />
+            <img src={movieBox} alt='Gif of the Movie Box App' />
           </div>
           <div className='key-text'>
             <div className='project-header'>
@@ -74,11 +79,16 @@ class Projects extends Component {
                 <a
                   href='https://github.com/briworkman/movie-box'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
-                  <img src={github} />
+                  <img src={github} alt='Go to GitHub' />
                 </a>
-                <a href='https://the-movie-box.netlify.com/' target='_blank'>
-                  <img src={launch} />
+                <a
+                  href='https://the-movie-box.netlify.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={launch} alt='Go Live' />
                 </a>
               </div>
             </div>
@@ -94,6 +104,7 @@ class Projects extends Component {
                   <a
                     href='https://www.themoviedb.org/?language=en-US'
                     target='_blank'
+                    rel='noopener noreferrer'
                   >
                     The Movie Database
                   </a>

@@ -33,7 +33,7 @@ export default function About() {
           </div>
         </div>
         <div className='profile-picture'>
-          <img src={profile} />
+          <img src={profile} alt='Brianna Workman' />
         </div>
       </div>
     </div>
