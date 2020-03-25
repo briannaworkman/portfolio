@@ -3,6 +3,7 @@ import keyLogin from '../assets/images/key-login.png';
 import '../assets/styles/projects.css';
 import keyFeed from '../assets/images/key-feed.png';
 import keyProfile from '../assets/images/key-profile.png';
+import movieBox from '../assets/images/movie-box.gif';
 import github from '../assets/icons/github-brands.svg';
 import launch from '../assets/icons/launch.svg';
 import Modal from './Modal';
@@ -58,6 +59,40 @@ class Projects extends Component {
                 <li>Node.js & Express</li>
               </ul>
             </div>
+          </div>
+        </div>
+        <div className='key-project'>
+          <div className='key-text'>
+            <div className='project-header'>
+              <h2>Movie Box</h2>
+              <a href='https://github.com/briworkman/movie-box' target='_blank'>
+                <img src={github} />
+              </a>
+              <a href='https://the-movie-box.netlify.com/' target='_blank'>
+                <img src={launch} />
+              </a>
+            </div>
+            <p>
+              Movie Box is an app that allows you to view your favorite movie
+              and TV show plots, budgets, actors, and more.
+            </p>
+            <p>Built With:</p>
+            <div className='tech-lists'>
+              <ul>
+                <li>React</li>
+                <li>
+                  <a
+                    href='https://www.themoviedb.org/?language=en-US'
+                    target='_blank'
+                  >
+                    The Movie Database
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className='movie-pic'>
+            <img src={movieBox} />
           </div>
         </div>
       </div>
