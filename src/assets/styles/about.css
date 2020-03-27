@@ -86,4 +86,8 @@
   .about p {
     width: 100%;
   }
+
+  .about h2:after {
+    display: none;
+  }
 }

@@ -149,8 +149,7 @@
   }
 
   .project h2:after {
-    width: 100px;
-    margin-left: 100%;
+    display: none;
   }
 }
 
