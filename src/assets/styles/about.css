@@ -52,12 +52,14 @@
 .profile-picture {
   display: flex;
   justify-content: flex-end;
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
 
 .profile-picture img {
-  height: 350px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid white;
 }
 
 @media screen and (max-width: 800px) {
