@@ -4,6 +4,7 @@ import '../assets/styles/projects.css';
 import keyFeed from '../assets/images/key-feed.png';
 import keyProfile from '../assets/images/key-profile.png';
 import movieBox from '../assets/images/movie-box.gif';
+import covid from '../assets/images/covid.gif';
 import github from '../assets/icons/github-brands.svg';
 import launch from '../assets/icons/launch.svg';
 import Modal from './Modal';
@@ -24,6 +25,44 @@ class Projects extends Component {
       <div className='projects-container'>
         <div className='project'>
           <h2>My Projects</h2>
+        </div>
+        <div className='key-project'>
+          <div className='covid-pic'>
+            <img src={covid} alt='Gif of the COVID-19 Dashboard' />
+          </div>
+          <div className='key-text'>
+            <div className='project-header'>
+              <h2>COVID-19 Dashboard</h2>
+              <div className='icons'>
+                <a
+                  href='https://github.com/briworkman/covid-19'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={github} alt='Go to GitHub' />
+                </a>
+                <a
+                  href='https://ncovid-19-dashboard.netlify.com'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={launch} alt='Go Live' />
+                </a>
+              </div>
+            </div>
+            <p>
+              The COVID-19 Dashboard helps you to track the virus and it's
+              impact all over the world by displaying current statistics in an
+              easy to understand, visual way. All data is updated at least once
+              a day via active APIs
+            </p>
+            <p>Built With:</p>
+            <div className='tech-lists'>
+              <ul>
+                <li>React</li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div className='key-project'>
           <div className='key-pic'>

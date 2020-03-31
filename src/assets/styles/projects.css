@@ -111,6 +111,18 @@
   margin-right: 1rem;
 }
 
+.covid-pic {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+.covid-pic img {
+  height: 275px;
+  width: 550px;
+  margin-right: 1rem;
+}
+
 @media screen and (max-width: 1285px) {
   .key-project {
     flex-direction: column;
@@ -132,6 +144,12 @@
   .movie-pic img {
     height: 300px;
     width: 450px;
+  }
+
+  .covid-pic img {
+    height: 230px;
+    width: 450px;
+    margin-right: 1rem;
   }
 }
 
