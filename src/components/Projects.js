@@ -7,8 +7,6 @@ import movieBox from '../assets/images/movie-box.gif';
 import covid from '../assets/images/covid.gif';
 import github from '../assets/icons/github-brands.svg';
 import launch from '../assets/icons/launch.svg';
-import Modal from './Modal';
-import Unavailable from './Unavailable';
 
 class Projects extends Component {
   state = { show: false };
@@ -85,10 +83,6 @@ class Projects extends Component {
                 >
                   <img src={github} alt='Go to GitHub' />
                 </a>
-                <Modal show={this.state.show}>
-                  <Unavailable handleClose={this.hideModal} />
-                </Modal>
-                <img src={launch} alt='Go Live' onClick={this.showModal} />
               </div>
             </div>
             <p>
@@ -97,6 +91,18 @@ class Projects extends Component {
               updates on day-to-day campaigns. The Key Conservation app has a
               scrolling live feed that updates as needs from conservationists
               occur around the world in real-time.
+            </p>
+            <p>
+              This app is still in development and will be launched in June
+              2020. You can view updates on the{' '}
+              <a
+                href='https://www.keyconservation.org/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Key Conservation
+              </a>{' '}
+              website
             </p>
             <p>Built With:</p>
             <div className='tech-lists'>
