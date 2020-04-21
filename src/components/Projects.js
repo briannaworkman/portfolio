@@ -4,6 +4,7 @@ import '../assets/styles/projects.css';
 import keyFeed from '../assets/images/key-feed.png';
 import keyProfile from '../assets/images/key-profile.png';
 import movieBox from '../assets/images/movie-box.gif';
+import cookBook from '../assets/images/cookbook.gif';
 import covid from '../assets/images/covid.gif';
 import github from '../assets/icons/github-brands.svg';
 import launch from '../assets/icons/launch.svg';
@@ -40,7 +41,7 @@ class Projects extends Component {
                   <img src={github} alt='Go to GitHub' />
                 </a>
                 <a
-                  href='https://ncovid-19-dashboard.netlify.com'
+                  href='https://ncovid-19-dashboard.netlify.app'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -129,7 +130,7 @@ class Projects extends Component {
                   <img src={github} alt='Go to GitHub' />
                 </a>
                 <a
-                  href='https://the-movie-box.netlify.com/'
+                  href='https://the-movie-box.netlify.app'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -154,6 +155,44 @@ class Projects extends Component {
                     The Movie Database
                   </a>
                 </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className='key-project'>
+          <div className='cook-pic'>
+            <img src={cookBook} alt='Gif of the Cook Book landing page' />
+          </div>
+          <div className='key-text'>
+            <div className='project-header'>
+              <h2>Cook Book Landing Page</h2>
+              <div className='icons'>
+                <a
+                  href='https://github.com/ChefPortfolio/UI/tree/brianna-workman'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={github} alt='Go to GitHub' />
+                </a>
+                <a
+                  href='https://cook-book.netlify.app'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={launch} alt='Go Live' />
+                </a>
+              </div>
+            </div>
+            <p>
+              The Cook Book landing page allows you to view the Cook Book
+              mission and what using the app may look like, as well as links you
+              to the sign in and sign up pages for the app.
+            </p>
+            <p>Built With:</p>
+            <div className='tech-lists'>
+              <ul>
+                <li>HTML</li>
+                <li>CSS w/ LESS</li>
               </ul>
             </div>
           </div>

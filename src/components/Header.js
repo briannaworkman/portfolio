@@ -14,7 +14,7 @@ function Header() {
         </p>
         <div className='button-container'>
           <a href='mailto:brianna.workman@hotmail.com'>
-            <button className='button'>Get In Touch</button>
+            <button className='button'>Say Hello</button>
           </a>
           <a
             href='https://resume.creddle.io/resume/ba5qjpkswa6'

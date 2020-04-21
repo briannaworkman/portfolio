@@ -123,6 +123,18 @@
   margin-right: 1rem;
 }
 
+.cook-pic {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+.cook-pic img {
+  height: 275px;
+  width: 550px;
+  margin-right: 1rem;
+}
+
 @media screen and (max-width: 1285px) {
   .key-project {
     flex-direction: column;
