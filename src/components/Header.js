@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles/header.css';
+import resume from '../assets/brianna-workman.pdf';
 
 function Header() {
   return (
@@ -16,11 +17,7 @@ function Header() {
           <a href='mailto:brianna.workman@hotmail.com'>
             <button className='button'>Say Hello</button>
           </a>
-          <a
-            href='https://resume.creddle.io/resume/ba5qjpkswa6'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
+          <a href={resume} download>
             <button className='button'>Resume</button>
           </a>
         </div>
