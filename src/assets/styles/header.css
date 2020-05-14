@@ -1,8 +1,8 @@
 .header-container {
   height: 100vh;
   margin: 0 auto;
-  padding-left: 5rem;
-  padding-top: 10rem;
+  padding-left: 10rem;
+  padding-top: 30vh;
 }
 
 .header {
@@ -13,18 +13,18 @@
 .header-p {
   color: #fc4177;
   margin: 0;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .header-h1 {
   color: #f5f5f5;
-  font-size: 70px;
+  font-size: 80px;
   margin: 0;
 }
 
 .header-h2 {
   color: #ccd6f5;
-  font-size: 70px;
+  font-size: 80px;
   margin: 0;
 }
 
@@ -32,7 +32,7 @@
   margin-top: 30px;
   width: 50%;
   color: #ccd6f5;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .button-container {

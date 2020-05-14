@@ -13,14 +13,6 @@ function Header() {
           I have a passion for building exceptional, high-quality websites and
           applicaitons for the web, iOS, and Android.
         </p>
-        <div className='button-container'>
-          <a href='mailto:brianna.workman@hotmail.com'>
-            <button className='button'>Say Hello</button>
-          </a>
-          <a href={resume} download>
-            <button className='button'>Resume</button>
-          </a>
-        </div>
       </div>
     </div>
   );
