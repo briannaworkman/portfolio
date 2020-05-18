@@ -1,6 +1,5 @@
 import React from 'react';
 import '../assets/styles/header.css';
-import resume from '../assets/brianna-workman.pdf';
 
 function Header() {
   return (
