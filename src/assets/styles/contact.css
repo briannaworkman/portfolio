@@ -1,0 +1,28 @@
+.main-contact-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 32px;
+  color: #f5f5f5;
+  line-height: 0.1;
+  display: inline-block;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact a,
+p {
+  font-size: 24px;
+  color: #fc4177;
+}
+
+.contact a:hover {
+  cursor: pointer;
+  color: #f5f5f5;
+}
