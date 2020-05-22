@@ -1,12 +1,12 @@
-.nav {
+.nav-items {
   display: flex;
   justify-content: flex-end;
-  padding: 1.5rem;
   background-color: #020e1b;
   position: fixed;
-  top: 0;
   width: 97%;
-  border-bottom: 0.5px solid #11223a;
+  top: -20px;
+  /* border-bottom: 0.5px solid #11223a; */
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px;
 }
 
 .container a {
@@ -17,6 +17,7 @@
 }
 
 .container a:hover {
+  cursor: pointer;
   color: #f5f5f5;
 }
 
