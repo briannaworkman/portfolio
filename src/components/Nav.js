@@ -15,7 +15,7 @@ function Nav() {
               smooth={true}
               offset={-70}
               duration={1000}
-              to='header'
+              to='header-container'
               activeClassName='selected'
             >
               Home
