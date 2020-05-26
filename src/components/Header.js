@@ -10,7 +10,7 @@ function Header() {
         <h2 className='header-h2'>I am a Software Engineer.</h2>
         <p className='summary'>
           I have a passion for building exceptional, high-quality websites and
-          applicaitons for the web, iOS, and Android.
+          applications for the web, iOS, and Android.
         </p>
       </div>
     </div>
