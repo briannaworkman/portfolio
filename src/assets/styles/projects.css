@@ -162,6 +162,11 @@
     width: 450px;
     margin-right: 1rem;
   }
+  .cook-pic img {
+    height: 230px;
+    width: 450px;
+    margin-right: 1rem;
+  }
 }
 
 @media screen and (max-width: 635px) {
@@ -183,6 +188,22 @@
   .no-show {
     display: none;
   }
+
+  .movie-pic img {
+    height: 250px;
+    width: 400px;
+  }
+
+  .covid-pic img {
+    height: 200px;
+    width: 400px;
+    margin-right: 1rem;
+  }
+  .cook-pic img {
+    height: 200px;
+    width: 400px;
+    margin-right: 1rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -191,6 +212,10 @@
     width: 300px;
   }
   .covid-pic img {
+    height: 145px;
+    width: 300px;
+  }
+  .cook-pic img {
     height: 145px;
     width: 300px;
   }
