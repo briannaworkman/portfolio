@@ -55,7 +55,7 @@ class Projects extends Component {
               easy to understand, visual way. All data is updated at least once
               a day via active APIs
             </p>
-            <p>Built With:</p>
+            <p>I built the front end with:</p>
             <div className='tech-lists'>
               <ul>
                 <li>React</li>
@@ -105,7 +105,10 @@ class Projects extends Component {
               </a>{' '}
               website
             </p>
-            <p>Built With:</p>
+            <p>
+              I worked on the scrolling live feed and the connect/follow feature
+              with:
+            </p>
             <div className='tech-lists'>
               <ul>
                 <li>React Native & Redux</li>
@@ -142,7 +145,7 @@ class Projects extends Component {
               Movie Box is an app that allows you to view your favorite movie
               and TV show plots, budgets, actors, and more.
             </p>
-            <p>Built With:</p>
+            <p>I built the front end with:</p>
             <div className='tech-lists'>
               <ul>
                 <li>React</li>
@@ -188,7 +191,7 @@ class Projects extends Component {
               mission and what using the app may look like, as well as links you
               to the sign in and sign up pages for the app.
             </p>
-            <p>Built With:</p>
+            <p>I built the landing and about pages with:</p>
             <div className='tech-lists'>
               <ul>
                 <li>HTML</li>
