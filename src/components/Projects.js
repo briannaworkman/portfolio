@@ -57,7 +57,7 @@ class Projects extends Component {
             </p>
             <p>I built the front end with:</p>
             <div className='tech-lists'>
-              <ul>
+              <ul className='stack-points'>
                 <li>React</li>
               </ul>
             </div>
@@ -110,7 +110,7 @@ class Projects extends Component {
               with:
             </p>
             <div className='tech-lists'>
-              <ul>
+              <ul className='stack-points'>
                 <li>React Native & Redux</li>
                 <li>Node.js & Express</li>
               </ul>
@@ -147,7 +147,7 @@ class Projects extends Component {
             </p>
             <p>I built the front end with:</p>
             <div className='tech-lists'>
-              <ul>
+              <ul className='stack-points'>
                 <li>React</li>
                 <li>
                   <a
@@ -193,7 +193,7 @@ class Projects extends Component {
             </p>
             <p>I built the landing and about pages with:</p>
             <div className='tech-lists'>
-              <ul>
+              <ul className='stack-points'>
                 <li>HTML</li>
                 <li>CSS w/ LESS</li>
               </ul>
