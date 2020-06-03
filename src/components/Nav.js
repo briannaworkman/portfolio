@@ -60,7 +60,7 @@ function Nav() {
               Contact
             </Link>
           </li>
-          <a href={resume} download>
+          <a href={resume} download className='nav-item'>
             Resume
           </a>
         </ul>
