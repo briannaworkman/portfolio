@@ -9,7 +9,7 @@ export default function About() {
         <div className='about'>
           <h2>About Me</h2>
           <p>
-            Hello! I'm Brianna, a software enginner who enjoys building
+            Hello! I'm Brianna, a software engineer who enjoys building
             exceptional websites and apps that provide intuitive, responsive,
             pixel-perfect user interfaces with efficient and modern backends.
           </p>
