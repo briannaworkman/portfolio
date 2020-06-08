@@ -14,9 +14,9 @@ export default function About() {
             pixel-perfect user interfaces with efficient and modern backends.
           </p>
           <p>
-            I am currently a student in Lambda School's Full Stack Web
-            Development program where I work on a wide variety of fun and
-            interesting projects on a daily basis.
+            I recently completed Lambda School's Full Stack Web Development
+            program where I worked on a wide variety of fun and interesting
+            projects on a daily basis.
           </p>
           <p>Here are a few technologies I've been working with recently:</p>
           <div className='tech-lists'>
