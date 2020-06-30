@@ -8,6 +8,7 @@ import cookBook from '../assets/images/cookbook.gif';
 import covid from '../assets/images/covid.gif';
 import github from '../assets/icons/github-brands.svg';
 import launch from '../assets/icons/launch.svg';
+import recipe from '../assets/images/recipe-cheqr.gif';
 
 class Projects extends Component {
   state = { show: false };
@@ -24,6 +25,45 @@ class Projects extends Component {
       <div className='projects-container'>
         <div className='project'>
           <h2>My Projects</h2>
+        </div>
+        <div className='key-project'>
+          <div className='covid-pic'>
+            <img src={recipe} alt='Gif of Recipe Cheqr' />
+          </div>
+          <div className='key-text'>
+            <div className='project-header'>
+              <h2>Recipe Cheqr</h2>
+              <div className='icons'>
+                <a
+                  href='https://github.com/irisjitomo/recipe-site-7days7websites'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={github} alt='Go to GitHub' />
+                </a>
+                <a
+                  href='https://recipecheqr.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={launch} alt='Go Live' />
+                </a>
+              </div>
+            </div>
+            <p>
+              The Recipe Cheqr app allows users to search, filter, and view
+              recipes and their specific instructions, as well as their
+              nutrition facts. The app also allows users to generate/create
+              grocery lists and create/login to a profile to save their favorite
+              recipes
+            </p>
+            <p>I built the front end with:</p>
+            <div className='tech-lists'>
+              <ul className='stack-points'>
+                <li>React</li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div className='key-project'>
           <div className='covid-pic'>
