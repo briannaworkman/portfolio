@@ -134,8 +134,8 @@ class Projects extends Component {
               occur around the world in real-time.
             </p>
             <p>
-              This app is still in development and will be launched in June
-              2020. You can view updates on the{' '}
+              Due to COVID-19, the launch of this app has been postponed. You
+              can view updates on the{' '}
               <a
                 href='https://www.keyconservation.org/'
                 target='_blank'
