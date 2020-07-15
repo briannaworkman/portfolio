@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/styles/nav.css';
-import resume from '../assets/brianna-workman.pdf';
+import resume from '../assets/Brianna_Workman_Resume.pdf';
 import { Link } from 'react-scroll';
 
 function Nav() {
