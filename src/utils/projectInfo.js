@@ -1,6 +1,14 @@
+import keyFeed from '../assets/images/key-feed.png';
+import keyProfile from '../assets/images/key-profile.png';
+import keyLogin from '../assets/images/key-login.png';
+import movieBox from '../assets/images/movie-box.gif';
+import covid from '../assets/images/covid.gif';
+import recipe from '../assets/images/recipe-cheqr.gif';
+import gitHub from '../assets/images/github-profile.gif';
+
 const projects = [
   {
-    img: ['../assets/images/github-profile.gif'],
+    img: [gitHub],
     title: 'My GitHub Profile',
     github_url: 'https://github.com/briworkman/github-profile',
     live_url: 'https://my-github-profile.netlify.app/',
@@ -11,7 +19,7 @@ const projects = [
     api_url: 'https://developer.github.com/v4/',
   },
   {
-    img: ['../assets/images/recipe-cheqr.gif'],
+    img: [recipe],
     title: 'Recipe Cheqr',
     github_url: 'https://github.com/irisjitomo/recipe-site-7days7websites',
     live_url: 'https://recipecheqr.netlify.app/',
@@ -22,7 +30,7 @@ const projects = [
     api_url: 'https://rapidapi.com/user/spoonacular',
   },
   {
-    img: ['../assets/images/covid.gif'],
+    img: [covid],
     title: 'COVID-19 Dashboard',
     github_url: 'https://github.com/briworkman/covid-19',
     live_url: 'https://ncovid-19-dashboard.netlify.app',
@@ -33,11 +41,7 @@ const projects = [
     api_url: null,
   },
   {
-    img: [
-      '../assets/images/key-login.png',
-      '../assets/images/key-feed.png',
-      '../assets/images/key-profile.png',
-    ],
+    img: [keyLogin, keyFeed, keyProfile],
     title: 'Key Conservation',
     github_url: 'https://github.com/Lambda-School-Labs?q=key&type=&language=',
     live_url: null,
@@ -48,14 +52,14 @@ const projects = [
     api_url: null,
   },
   {
-    img: ['../assets/images/movie-box.gif'],
+    img: [movieBox],
     title: 'Movie Box',
     github_url: 'https://github.com/briworkman/movie-box',
     live_url: 'https://the-movie-box.netlify.app',
     description:
       'Movie Box is an app that allows you to view your favorite movie and TV show plots, budgets, actors, and more.',
     role: 'front end',
-    built_with: ['React'],
+    built_with: ['React', 'The Movie Database'],
     api_url: 'https://www.themoviedb.org/?language=en-US',
   },
 ];
