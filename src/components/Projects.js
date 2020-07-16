@@ -10,6 +10,9 @@ import github from '../assets/icons/github-brands.svg';
 import launch from '../assets/icons/launch.svg';
 import recipe from '../assets/images/recipe-cheqr.gif';
 
+import data from '../utils/projectInfo';
+console.log(data);
+
 class Projects extends Component {
   state = { show: false };
 
