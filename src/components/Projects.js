@@ -22,7 +22,7 @@ function Projects() {
             ) : (
               <div className='key-pic' alt='Application Example'>
                 {projects.img.map((image) => {
-                  return <img src={image} />;
+                  return <img src={image} alt='application example' />;
                 })}
               </div>
             )}
