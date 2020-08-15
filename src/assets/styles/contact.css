@@ -16,13 +16,13 @@
   flex-direction: column;
 }
 
-.contact a,
-p {
+.contact-number,
+.contact-info {
   font-size: 24px;
   color: #fc4177;
 }
 
-.contact a:hover {
+.contact-info:hover {
   cursor: pointer;
   color: #f5f5f5;
 }

@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
-import "../assets/styles/contact.css";
-import styled from "styled-components";
+import React, { useState, useEffect } from 'react';
+import '../assets/styles/contact.css';
+import styled from 'styled-components';
 
-const Snackbar = styled("div")`
+const Snackbar = styled('div')`
   min-width: 20vw;
   background-color: #ffff;
   color: #000;
@@ -61,9 +61,9 @@ const Snackbar = styled("div")`
 `;
 
 export default function Contact() {
-  const [email] = useState("brianna-workman@lambdastudents.com");
+  const [email] = useState('brianna-workman@lambdastudents.com');
   const [showToast, setShowToast] = useState(false);
-  const [toastText, setToastText] = useState("");
+  const [toastText, setToastText] = useState('');
 
   const copyText = (value) => {
     window.navigator.clipboard.writeText(value);
@@ -77,11 +77,13 @@ export default function Contact() {
     }
   }, [showToast, setShowToast]);
   return (
-    <div className="main-contact-container">
-      <div className="contact">
+    <div className='main-contact-container'>
+      <div className='contact'>
         <h2>Contact Me</h2>
-        <a onClick={() => copyText(email)}>{email}</a>
-        <p>(586) 994-1250</p>
+        <p className='contact-info' onClick={() => copyText(email)}>
+          {email}
+        </p>
+        <p className='contact-number'>(586) 994-1250</p>
       </div>
       {showToast && <Snackbar>{toastText}</Snackbar>}
     </div>
