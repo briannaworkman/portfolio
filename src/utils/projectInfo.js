@@ -8,6 +8,17 @@ import gitHub from '../assets/images/github-profile.gif';
 
 const projects = [
   {
+    img: [movieBox],
+    title: 'Movie Box',
+    github_url: 'https://github.com/briworkman/movie-box-new',
+    live_url: 'https://movie-box-2.netlify.app/',
+    description:
+      'Movie Box is an app that allows you to view and search your favorite movie plots, budgets, actors, and more.',
+    role: 'front end',
+    built_with: ['React', 'The Movie Database'],
+    api_url: 'https://www.themoviedb.org/?language=en-US',
+  },
+  {
     img: [gitHub],
     title: 'My GitHub Profile',
     github_url: 'https://github.com/briworkman/github-profile',
@@ -50,17 +61,6 @@ const projects = [
     role: 'scrolling live feed and the connect/follow feature',
     built_with: ['React Native & Redux', 'Node.js & Express'],
     api_url: null,
-  },
-  {
-    img: [movieBox],
-    title: 'Movie Box',
-    github_url: 'https://github.com/briworkman/movie-box',
-    live_url: 'https://the-movie-box.netlify.app',
-    description:
-      'Movie Box is an app that allows you to view your favorite movie and TV show plots, budgets, actors, and more.',
-    role: 'front end',
-    built_with: ['React', 'The Movie Database'],
-    api_url: 'https://www.themoviedb.org/?language=en-US',
   },
 ];
 
