@@ -1,7 +1,7 @@
 .nav-items {
   display: flex;
   justify-content: flex-end;
-  background-image: linear-gradient(to left, #f0065c, #ffd60b);
+  background-color: #ffffff;
   position: fixed;
   width: 98%;
   top: -20px;
@@ -10,7 +10,7 @@
 
 .container .nav-item {
   margin: 20px;
-  color: #ffffff;
+  color: #2b2b2b;
   top: 0;
   font-size: 14px;
 }
@@ -21,7 +21,7 @@
 
 .container a:hover {
   cursor: pointer;
-  color: #ffd60b;
+  color: #f0065c;
 }
 
 @media screen and (max-width: 800px) {
