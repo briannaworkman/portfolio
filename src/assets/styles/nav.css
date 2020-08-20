@@ -1,23 +1,27 @@
 .nav-items {
   display: flex;
   justify-content: flex-end;
-  background-color: #020e1b;
+  background-color: #fda03b;
   position: fixed;
-  width: 97%;
+  width: 98%;
   top: -20px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px;
 }
 
 .container .nav-item {
   margin: 20px;
-  color: #fc4177;
+  color: #ffffff;
   top: 0;
   font-size: 14px;
 }
 
+.container a {
+  text-decoration: none;
+}
+
 .container a:hover {
   cursor: pointer;
-  color: #f5f5f5;
+  color: #2b2b2b;
 }
 
 @media screen and (max-width: 800px) {
