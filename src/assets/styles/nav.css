@@ -1,7 +1,7 @@
 .nav-items {
   display: flex;
   justify-content: flex-end;
-  background-color: #f0065c;
+  background-image: linear-gradient(to left, #f0065c, #ffd60b);
   position: fixed;
   width: 98%;
   top: -20px;
