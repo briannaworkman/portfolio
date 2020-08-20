@@ -1,7 +1,7 @@
 .main-about-container {
+  width: 70%;
   height: 100vh;
   margin: 0 auto;
-  padding: 5rem;
 }
 
 .about-container {
@@ -10,9 +10,13 @@
   align-items: flex-start;
 }
 
+.about {
+  margin-top: 20%;
+}
+
 .about h2 {
   font-size: 32px;
-  color: #f5f5f5;
+  color: #2b2b2b;
   line-height: 0.1;
   display: inline-block;
 }
@@ -23,27 +27,27 @@
   display: block;
   height: 1px;
   width: 300px;
-  background-color: #fc4177;
+  background-image: linear-gradient(to right, #f0065c, #ffd60b);
   margin-left: 60%;
 }
 
 .about p {
   width: 85%;
   flex-wrap: wrap;
-  color: #ccd6f5;
+  color: #2b2b2b;
   font-size: 18px;
   line-height: 1.5;
 }
 
 .tech-lists {
   display: flex;
-  color: #ccd6f5;
+  color: #2b2b2b;
   margin-top: -1.5rem;
 }
 
 .about ul li::before {
   content: '\25B7';
-  color: #fc4177;
+  color: #ee0a52;
   display: inline-block;
   width: 2rem;
 }
@@ -51,7 +55,7 @@
 .profile-picture {
   display: flex;
   justify-content: flex-end;
-  margin-top: 6rem;
+  margin-top: 25%;
 }
 
 .profile-picture img {
