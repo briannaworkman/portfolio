@@ -1,29 +1,33 @@
 .header-container {
   height: 100vh;
-  margin: 0 auto;
-  padding-left: 10rem;
-  padding-top: 25vh;
+  width: 100%;
+  background-image: linear-gradient(#f0065c, #ffd60b);
 }
 
 .header {
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin: 0 auto;
+  padding-left: 10rem;
+  padding-top: 30vh;
 }
+
 .header-p {
-  color: #fc4177;
+  color: #ffffff;
   margin: 0;
   font-size: 20px;
 }
 
 .header-h1 {
-  color: #f5f5f5;
+  color: #ffffff;
   font-size: 80px;
   margin: 0;
 }
 
 .header-h2 {
-  color: #ccd6f5;
+  color: #ffffff;
   font-size: 80px;
   margin: 0;
 }
@@ -31,36 +35,8 @@
 .summary {
   margin-top: 30px;
   width: 50%;
-  color: #ccd6f5;
+  color: #ffffff;
   font-size: 24px;
-}
-
-.button-container {
-  margin-top: 30px;
-}
-
-.button {
-  background-color: transparent;
-  border-color: #fc4177;
-  color: #fc4177;
-  font-size: 14px;
-  cursor: pointer;
-  border-radius: 5px;
-  padding: 1rem 1.75rem;
-  margin-right: 20px;
-}
-
-.button:hover {
-  background-color: rgba(246, 76, 114, 0.1);
-}
-
-a {
-  text-decoration: none;
-}
-
-a:visited {
-  color: #64ffda;
-  text-decoration: none;
 }
 
 @media screen and (max-width: 635px) {

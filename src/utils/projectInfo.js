@@ -30,6 +30,20 @@ const projects = [
     api_url: 'https://developer.github.com/v4/',
   },
   {
+    img: [keyLogin, keyFeed, keyProfile],
+    title: 'Key Conservation',
+    github_url: 'https://github.com/Lambda-School-Labs?q=key&type=&language=',
+    live_url: null,
+    description:
+      'Key Conservation is helping conservationists gain critical funding and global support through a mobile app that provides real-time updates on day-to-day campaigns. The Key Conservation app has a scrolling live feed that updates as needs from conservationists occur around the world in real-time.',
+    role: 'scrolling live feed and the connect/follow feature',
+    built_with: ['React Native', 'Redux', 'Node.js', 'Express'],
+    api_url: null,
+  },
+];
+
+export const otherProjects = [
+  {
     img: [recipe],
     title: 'Recipe Cheqr',
     github_url: 'https://github.com/irisjitomo/recipe-site-7days7websites',
@@ -49,17 +63,6 @@ const projects = [
       "The COVID-19 Dashboard helps you to track the virus and it's impact all over the world by displaying current statistics in an easy to understand, visual way. All data is updated at least once a day via active APIs",
     role: 'front end',
     built_with: ['React'],
-    api_url: null,
-  },
-  {
-    img: [keyLogin, keyFeed, keyProfile],
-    title: 'Key Conservation',
-    github_url: 'https://github.com/Lambda-School-Labs?q=key&type=&language=',
-    live_url: null,
-    description:
-      'Key Conservation is helping conservationists gain critical funding and global support through a mobile app that provides real-time updates on day-to-day campaigns. The Key Conservation app has a scrolling live feed that updates as needs from conservationists occur around the world in real-time.',
-    role: 'scrolling live feed and the connect/follow feature',
-    built_with: ['React Native & Redux', 'Node.js & Express'],
     api_url: null,
   },
 ];
