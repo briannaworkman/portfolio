@@ -28,7 +28,7 @@ function Projects() {
             )}
             <div className='key-text'>
               <div className='project-header'>
-                <h2>{projects.title}</h2>
+                <h2 className='project-title'>{projects.title}</h2>
                 <div className='icons'>
                   <a
                     href={projects.github_url}
@@ -48,28 +48,13 @@ function Projects() {
                   ) : null}
                 </div>
               </div>
-              <p>{projects.description}</p>
-              {projects.live_url === null ? (
-                <p>
-                  Due to COVID-19, the launch of this app has been postponed.
-                  You can view updates on the{' '}
-                  <a
-                    href='https://www.keyconservation.org/'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    Key Conservation
-                  </a>{' '}
-                  website
-                </p>
-              ) : null}
-              <p>I built the {projects.role} with:</p>
+              <p className='description'>{projects.description}</p>
               <div className='tech-lists'>
-                <ul className='stack-points'>
+                <div className='stack'>
                   {projects.built_with.map((stack) => {
-                    return <li>{stack}</li>;
+                    return <p>{stack}</p>;
                   })}
-                </ul>
+                </div>
               </div>
             </div>
           </div>
