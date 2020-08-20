@@ -1,7 +1,7 @@
 .nav-items {
   display: flex;
   justify-content: flex-end;
-  background-color: #fda03b;
+  background-color: #f0065c;
   position: fixed;
   width: 98%;
   top: -20px;
@@ -21,7 +21,7 @@
 
 .container a:hover {
   cursor: pointer;
-  color: #2b2b2b;
+  color: #ffd60b;
 }
 
 @media screen and (max-width: 800px) {
