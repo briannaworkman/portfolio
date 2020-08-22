@@ -37,7 +37,7 @@ const projects = [
     description:
       'Key Conservation is helping conservationists gain critical funding and global support through a mobile app that provides real-time updates on day-to-day campaigns. The Key Conservation app has a scrolling live feed that updates as needs from conservationists occur around the world in real-time.',
     role: 'scrolling live feed and the connect/follow feature',
-    built_with: ['React Native', 'Redux', 'Node.js', 'Express'],
+    built_with: ['React Native & Redux', 'Node.js & Express'],
     api_url: null,
   },
 ];
