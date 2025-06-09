@@ -19,7 +19,7 @@ function SideLinks() {
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/brianna-m-workman/"
+            href="https://www.linkedin.com/in/bri-workman/"
             target="_blank"
             rel="noopener noreferrer"
           >
