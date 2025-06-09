@@ -26,7 +26,7 @@ export default function About() {
               <li>React Hook Form</li>
             </ul>
             <ul>
-              <li>Vitext, Jest, & React Testing Library</li>
+              <li>Vitest/Jest & React Testing Library</li>
               <li>Redux Toolkit</li>
               <li>Python & Django</li>
             </ul>
